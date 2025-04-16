@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or 'Online în siguranță' }}</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="{{ '/styles.css' | url }}">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,7 +13,7 @@
   <header>
     <div class="container header-flex">
       <div class="logo">
-        <img src="/images/logo.png" alt="Online în Siguranță" />
+        <img src="{{ '/images/logo.png' | url }}">
       </div>
 
       <form class="search-form" action="#" method="get">
@@ -62,6 +62,6 @@
     <p><a href="#">Termeni și condiții</a> | <a href="#">Confidențialitate și cookie-uri</a></p>
   </footer>
 
-  <script src="/script.js"></script>
+  <script src="{{ '/script.js' | url }}"></script>
 </body>
 </html>
