@@ -1,0 +1,21 @@
+[
+    {
+      "titlu": "Cum să navighezi în siguranță online",
+      "rezumat": "Află pașii esențiali pentru a-ți proteja datele personale.",
+      "link": "articole/articol1.html",
+      "imagine": "img/articol1.jpg"
+    },
+    {
+      "titlu": "Top 5 riscuri în educația digitală",
+      "rezumat": "Identifică cele mai frecvente capcane digitale și cum le eviți.",
+      "link": "articole/articol2.html",
+      "imagine": "img/articol2.jpg"
+    },
+    {
+      "titlu": "Ghid pentru părinți: copii și siguranța online",
+      "rezumat": "Sfaturi practice pentru a-i proteja pe cei mici în mediul digital.",
+      "link": "articole/articol3.html",
+      "imagine": "img/articol3.jpg"
+    }
+  ]
+  

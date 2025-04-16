@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or 'Online în siguranță' }}</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container header-flex">
+      <div class="logo">
+        <img src="/images/logo.png" alt="Online în Siguranță" />
+      </div>
+
+      <form class="search-form" action="#" method="get">
+        <input type="search" name="q" placeholder="Caută..." />
+      </form>
+
+      <form class="mobile-search-form" action="#" method="get">
+        <input type="search" name="q" placeholder="Caută..." />
+      </form>
+
+      <div class="nav-area">
+        <button class="search-toggle" aria-label="Caută">
+          <!-- SVG lupă -->
+        </button>
+        <button class="menu-toggle" aria-label="Deschide meniul">
+          <!-- SVG hamburger -->
+        </button>
+        <nav>
+            <ul>
+                <li><a href="/">Prima pagină</a></li>
+                <li><a href="/#educatie">Educație</a></li>
+                <li><a href="/#fraude">Fraude</a></li>
+                <li><a href="/#blog">Blog</a></li>
+                <li><a href="/#contact">Contact</a></li>
+                <li><a href="/#sustine" class="btn-sustine">Susține!</a></li>
+            </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONȚINUTUL PAGINII -->
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <h3>Contact</h3>
+    <p>Email: contact@siguranta.ro | Tel: 0123-456-789</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+    </div>
+    <p><a href="#">Termeni și condiții</a> | <a href="#">Confidențialitate și cookie-uri</a></p>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
